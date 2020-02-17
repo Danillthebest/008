@@ -21,6 +21,7 @@ end
 
 
   $apache = <<-SCRIPT
+   mkdir Hilyuk
    yum install -y httpd
    systemctl enable httpd.service
    systemctl restart httpd.service
