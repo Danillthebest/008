@@ -1,0 +1,21 @@
+version: '3'
+services:
+
+  #apache-server
+  webserver:
+      image: bitnami/apache:latest
+      restart: always
+      ports:
+        - "80:8080"
+       
+  #MySQL Service
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: cs@vj#scj1312
+      MYSQL_DATABASE: khilyuk
+      MYSQL_USER: Danil
+      MYSQL_PASSWORD: admin
+    ports:
+      - "3306:3306"
