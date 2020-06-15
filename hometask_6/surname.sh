@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo 'Khilyul Danil Vitaliyovich Krasnoivanivka'
+echo 'Khilyuk Danil Vitaliyovich Krasnoivanivka'
 
